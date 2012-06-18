@@ -36,7 +36,22 @@ body,
   background-image: -moz-linear-gradient(top, white, #ececec);
 }
 
-a:link, a:visited { color: black; }
+.slide a:link, a:visited { color: black; }
+
+.slide p, li, dt, dd, td, th {
+    font-size: 150%;
+}
+
+.slide h1 {
+    font-size: 245%;
+    text-align: center;
+}
+
+.last { text-align: center; }
+
+td {
+    padding: 0.5em;
+}
 
 </style>
 
@@ -113,13 +128,13 @@ a:link, a:visited { color: black; }
       </tr>
       <tr>
         <td><a href="https://github.com/esl/psql">esl/psql</a></td>
-        <td>Dec 07, 2010</td>
+        <td>Dec 7, 2010</td>
         <td>types in ETS</td>
       </tr>
       <tr>
         <td><a href="https://github.com/anka-213/erlydb">anka-213/erlydb</a></td>
         <td>Mar 29, 2011</td>
-        <td>dsl on top of old esl code</td>
+        <td>dsl, uses old esl code</td>
       </tr>
       <tr>
         <td><a href="https://svn.process-one.net/ejabberd-modules/pgsql/trunk/">ejabberd-modules/pgsql</a></td>
@@ -127,7 +142,6 @@ a:link, a:visited { color: black; }
         <td>old jungerl</td>
       </tr>
     </table>
-    odbc ???
   </div>
 
   <div>
@@ -179,7 +193,7 @@ a:link, a:visited { color: black; }
     </ul>
   </div>
   
-  <div>
+  <div class="last">
     <h1>Q&amp;A</h1>
     <p>Anton Lebedevich</p>
     <p>mabrek@gmail.com</p>
